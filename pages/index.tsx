@@ -3,7 +3,7 @@
 function Index() {
   return (
     <div>
-      <h1>Index</h1>
+      <h1>Resonite💛</h1>
     </div>
   );
 }
