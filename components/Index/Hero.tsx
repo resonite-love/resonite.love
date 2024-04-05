@@ -1,37 +1,37 @@
 import {Box, Typography} from "@mui/material";
 import Image from "next/image";
 import {height} from "@mui/system";
+import HeroCard from "@/components/Index/HeroCard";
 
 function Hero() {
   return (
-    <Box sx={{
-      position: "relative",
-      height: "600px",
-    }}>
-      {/* グラデーションのオーバーレイを追加 */}
-      <Box sx={{
-        height: "100%",
-        position: "absolute",
-        width: "100%",
-        top: 0,
-        left: 0,
-        "&::before": {
-          content: '""',
-          position: "absolute",
-          top: 0,
-          left: 0,
-          width: "100%",
-          height: "100%",
-          backgroundImage: "linear-gradient(to right, rgba(0,0,0,0) 30%, rgba(0,0,0,0.5) 100%)",
-          zIndex: 1,
-        }
-      }}>
-        <img src={"https://weaverselab.com/wecan.jpg"} style={{width: "100%", height: "100%", objectFit: "cover"}}/>
-      </Box>
-      <Box sx={{position: "absolute", top: "300px", left: "80%", transform: "translate(-50%, -50%)", color: "white", zIndex: 2}}>
-        <Typography variant={"h2"}>つくる</Typography>
-      </Box>
-    </Box>
+    <>
+      <HeroCard title={"つくる"} image={"https://weaverselab.com/wecan.jpg"}/>
+      <HeroCard title={"あそぶ"} image={"https://weaverselab.com/wecan.jpg"}/>
+      <HeroCard title={"ねる"} image={"https://weaverselab.com/wecan.jpg"}/>
+      <HeroCard title={"かく"} image={"https://weaverselab.com/wecan.jpg"}/>
+      <HeroCard title={"みる"} image={"https://weaverselab.com/wecan.jpg"}/>
+      <HeroCard title={"とる"} image={"https://weaverselab.com/wecan.jpg"}/>
+      <HeroCard title={"よむ"} image={"https://weaverselab.com/wecan.jpg"}/>
+      <HeroCard title={"とぶ"} image={"https://weaverselab.com/wecan.jpg"}/>
+      <HeroCard title={"うまる"} image={"https://weaverselab.com/wecan.jpg"}/>
+      <HeroCard title={"さくらをみる"} image={"https://weaverselab.com/wecan.jpg"}/>
+      <HeroCard title={"のむ"} image={"https://weaverselab.com/wecan.jpg"}/>
+      <HeroCard title={"さわぐ"} image={"https://weaverselab.com/wecan.jpg"}/>
+      <HeroCard title={"いきる"} image={"https://weaverselab.com/wecan.jpg"}/>
+      <HeroCard title={"しゃべる"} image={"https://weaverselab.com/wecan.jpg"}/>
+      <HeroCard title={"はたらく"} image={"https://weaverselab.com/wecan.jpg"}/>
+      <HeroCard title={"うつ"} image={"https://weaverselab.com/wecan.jpg"}/>
+      <HeroCard title={"まなぶ"} image={"https://weaverselab.com/wecan.jpg"}/>
+      <HeroCard title={"めぐる"} image={"https://weaverselab.com/wecan.jpg"}/>
+      <HeroCard title={"こわす"} image={"https://weaverselab.com/wecan.jpg"}/>
+      <HeroCard title={"すべる"} image={"https://weaverselab.com/wecan.jpg"}/>
+      <HeroCard title={"まわす"} image={"https://weaverselab.com/wecan.jpg"}/>
+      <HeroCard title={"うたう"} image={"https://weaverselab.com/wecan.jpg"}/>
+      <HeroCard title={"たべる"} image={"https://weaverselab.com/wecan.jpg"}/>
+      <HeroCard title={"はしる"} image={"https://weaverselab.com/wecan.jpg"}/>
+      <HeroCard title={"健康する"} image={"https://weaverselab.com/wecan.jpg"}/>
+    </>
   );
 }
 
