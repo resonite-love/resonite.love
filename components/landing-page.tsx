@@ -64,7 +64,7 @@ export function LandingPageComponent() {
     { title: "公式Wiki", url: "https://wiki.resonite.com", description: "Resoniteの公式Wikiサイトです。", color: "from-red-500 to-orange-500" },
     { title: "Resonite 非公式日本語ガイド", url: "https://resonite-jp-guide.zozoka.su/", description: "Resoniteにある機能を一通り解説した日本語ガイドサイトです。個人によって管理・運営されています。", color: "from-orange-500 to-yellow-500" },
     { title: "べるねWiki", url: "#", description: "ユーザーによって作成・管理されているWikiです。", color: "from-orange-500 to-yellow-500" },
-    { title: "初心者ガイド", url: "#", description: "Resoniteを始めたばかりの方向けの解説サイトです。", color: "from-yellow-500 to-green-500" },
+    { title: "セッション/ワールド検索", url: "https://resonite.world/", description: "セッションとかワールドが検索できるサイト。", color: "from-yellow-500 to-green-500" },
     { title: "初心者ガイド", url: "#", description: "Resoniteを始めたばかりの方向けの解説サイトです。", color: "from-yellow-500 to-green-500" },
     { title: "初心者ガイド", url: "#", description: "Resoniteを始めたばかりの方向けの解説サイトです。", color: "from-green-500 to-blue-500" },
     { title: "初心者ガイド", url: "#", description: "Resoniteを始めたばかりの方向けの解説サイトです。", color: "from-blue-500 to-indigo-500" },
