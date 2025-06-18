@@ -64,7 +64,7 @@ export function LandingPageComponent() {
     { title: "公式Wiki", url: "https://wiki.resonite.com", description: "Resoniteの公式Wikiサイトです。", color: "from-red-500 to-orange-500" },
     { title: "Resonite 非公式日本語ガイド", url: "https://resonite-jp-guide.zozoka.su/", description: "Resoniteにある機能を一通り解説した日本語ガイドサイトです。個人によって管理・運営されています。", color: "from-orange-500 to-yellow-500" },
     { title: "Resonite 非公式日本語 Wiki", url: "https://wiki.resonite.love/", description: "Resonite非公式日本語Wikiです", color: "from-orange-500 to-yellow-500" },
-    { title: "べるねWiki", url: "#", description: "ユーザーによって作成・管理されているWikiです。", color: "from-orange-500 to-yellow-500" },
+    { title: "べるネ Resonite 技術系 Wiki", url: "https://wikiwiki.jp/resonaito/", description: "ユーザーによって作成・管理されているWikiです。", color: "from-orange-500 to-yellow-500" },
     { title: "セッション/ワールド検索", url: "https://resonite.world/", description: "セッションとかワールドが検索できるサイト。", color: "from-yellow-500 to-green-500" },
     { title: "れぞマガ", url: "https://www.resonitemagazine.com/", description: "先鋭的なVRSNS「Resonite」を紹介するサイトです", color: "from-yellow-500 to-green-500" },
     { title: "UniPocket", url: "https://about.uni-pocket.com/ja", description: "UniPocketはResoniteで使える、画期的なアイテム共有・検索ツールです。", color: "from-green-500 to-blue-500" },
