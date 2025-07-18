@@ -85,7 +85,7 @@ export function LandingPageComponent() {
               <select
                 value={lang}
                 onChange={(e) => setLang(e.target.value as Language)}
-                className="bg-transparent border-none text-white focus:outline-none"
+                className="bg-transparent border-none text-white focus:outline-none [&>option]:text-black"
               >
                 <option value="ja">日本語</option>
                 <option value="en">English</option>
