@@ -68,6 +68,7 @@ export function LandingPageComponent() {
     { title: "セッション/ワールド検索", url: "https://go.resonite.com/", description: "セッションとかワールドが検索できるサイト。", color: "from-yellow-500 to-green-500" },
     { title: "れぞマガ", url: "https://www.resonitemagazine.com/", description: "先鋭的なVRSNS「Resonite」を紹介するサイトです", color: "from-yellow-500 to-green-500" },
     { title: "UniPocket", url: "https://about.uni-pocket.com/ja", description: "UniPocketはResoniteで使える、画期的なアイテム共有・検索ツールです。", color: "from-green-500 to-blue-500" },
+    { title: "Advent Calendar 2024", url: "https://adventar.org/calendars/10543", description: "知見から体験談まで、様々な内容がまとまったサイトです。", color: "from-green-500 to-blue-500" },
     { title: "公式Discord", url: "https://discord.gg/resonite", description: "Resonite公式Discordサーバです。", color: "from-blue-500 to-indigo-500" },
     { title: "ResoniteJapan", url: "https://discord.gg/resonite-japan", description: "Resonite非公式日本コミュニティのDiscordサーバです", color: "from-indigo-500 to-purple-500" },
   ]
